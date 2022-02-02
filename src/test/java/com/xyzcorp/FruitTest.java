@@ -14,8 +14,7 @@ public class FruitTest {
     //  {"description":"Tropical fruit","name":"Pineapple"}]
     @Test
     public void testGetFruits() {
-        System.out.println("new message");
-        given()
+                given()
                 .relaxedHTTPSValidation()
                 .accept(ContentType.JSON)
                 .when()
